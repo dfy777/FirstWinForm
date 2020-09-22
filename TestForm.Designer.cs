@@ -41,7 +41,7 @@
             // 
             this.btn_input.Location = new System.Drawing.Point(50, 366);
             this.btn_input.Name = "btn_input";
-            this.btn_input.Size = new System.Drawing.Size(75, 23);
+            this.btn_input.Size = new System.Drawing.Size(75, 30);
             this.btn_input.TabIndex = 0;
             this.btn_input.Text = "添加";
             this.btn_input.UseVisualStyleBackColor = true;
@@ -77,7 +77,7 @@
             // 
             this.btnNewWindow.Location = new System.Drawing.Point(50, 33);
             this.btnNewWindow.Name = "btnNewWindow";
-            this.btnNewWindow.Size = new System.Drawing.Size(75, 23);
+            this.btnNewWindow.Size = new System.Drawing.Size(75, 33);
             this.btnNewWindow.TabIndex = 5;
             this.btnNewWindow.Text = "跳转";
             this.btnNewWindow.UseVisualStyleBackColor = true;
