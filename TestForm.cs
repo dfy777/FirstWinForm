@@ -27,16 +27,20 @@ namespace FirstWinForm
 
         }
 
-        private void btn_input_Click(object sender, EventArgs e)
+        private void BtnInput_Click(object sender, EventArgs e)
         {
-            lis_names.Items.Add(txtb_input.Text);
+            lis_names.Items.Add(txb_input.Text);
         }
 
-        private void txtb_input_TextChanged(object sender, EventArgs e)
+        private void TxbInput_TextChanged(object sender, EventArgs e)
         {
-            lbl_num.Text = txtb_input.Text.Length.ToString();
+            lbl_num.Text = txb_input.Text.Length.ToString();
         }
 
-        
+        private void btnNewWindow_Click(object sender, EventArgs e)
+        {
+            var frm1 = new Form1();
+            frm1.Show(this);
+        }
     }
 }
