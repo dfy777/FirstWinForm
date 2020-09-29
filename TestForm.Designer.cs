@@ -36,6 +36,7 @@
             this.label1 = new System.Windows.Forms.Label();
             this.lblChange = new System.Windows.Forms.Label();
             this.btnShowImages = new System.Windows.Forms.Button();
+            this.btnMdi = new System.Windows.Forms.Button();
             this.SuspendLayout();
             // 
             // btn_input
@@ -111,11 +112,22 @@
             this.btnShowImages.UseVisualStyleBackColor = true;
             this.btnShowImages.Click += new System.EventHandler(this.btnShowImages_Click);
             // 
+            // btnMdi
+            // 
+            this.btnMdi.Location = new System.Drawing.Point(483, 242);
+            this.btnMdi.Name = "btnMdi";
+            this.btnMdi.Size = new System.Drawing.Size(132, 62);
+            this.btnMdi.TabIndex = 9;
+            this.btnMdi.Text = "Mdi";
+            this.btnMdi.UseVisualStyleBackColor = true;
+            this.btnMdi.Click += new System.EventHandler(this.btnMdi_Click);
+            // 
             // TestForm
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(9F, 18F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(800, 450);
+            this.Controls.Add(this.btnMdi);
             this.Controls.Add(this.btnShowImages);
             this.Controls.Add(this.lblChange);
             this.Controls.Add(this.label1);
@@ -142,5 +154,6 @@
         private System.Windows.Forms.Label label1;
         public System.Windows.Forms.Label lblChange;
         private System.Windows.Forms.Button btnShowImages;
+        private System.Windows.Forms.Button btnMdi;
     }
 }
