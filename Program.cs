@@ -14,6 +14,8 @@ namespace FirstWinForm
         [STAThread]
         static void Main()
         {
+            int i = 4 % 4;
+            Console.WriteLine(i);
 
             Application.EnableVisualStyles();
             Application.SetCompatibleTextRenderingDefault(false);

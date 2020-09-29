@@ -42,5 +42,11 @@ namespace FirstWinForm
             var frm1 = new Form1();
             frm1.Show(this);
         }
+
+        private void btnShowImages_Click(object sender, EventArgs e)
+        {
+            var frm_images = new ImgForm();
+            frm_images.Show();
+        }
     }
 }

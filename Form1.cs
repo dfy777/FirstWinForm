@@ -89,6 +89,7 @@ namespace FirstWinForm
 
         private void tmrAni_Tick(object sender, EventArgs e)
         {
+            //注意可能溢出
             picPhoto.Image = imgList.Images[(imgListCount++) % imgList.Images.Count];
         }
 

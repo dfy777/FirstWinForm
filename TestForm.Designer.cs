@@ -35,6 +35,7 @@
             this.btnNewWindow = new System.Windows.Forms.Button();
             this.label1 = new System.Windows.Forms.Label();
             this.lblChange = new System.Windows.Forms.Label();
+            this.btnShowImages = new System.Windows.Forms.Button();
             this.SuspendLayout();
             // 
             // btn_input
@@ -100,11 +101,22 @@
             this.lblChange.TabIndex = 7;
             this.lblChange.Text = "0";
             // 
+            // btnShowImages
+            // 
+            this.btnShowImages.Location = new System.Drawing.Point(483, 136);
+            this.btnShowImages.Name = "btnShowImages";
+            this.btnShowImages.Size = new System.Drawing.Size(132, 67);
+            this.btnShowImages.TabIndex = 8;
+            this.btnShowImages.Text = "显示图片";
+            this.btnShowImages.UseVisualStyleBackColor = true;
+            this.btnShowImages.Click += new System.EventHandler(this.btnShowImages_Click);
+            // 
             // TestForm
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(9F, 18F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(800, 450);
+            this.Controls.Add(this.btnShowImages);
             this.Controls.Add(this.lblChange);
             this.Controls.Add(this.label1);
             this.Controls.Add(this.btnNewWindow);
@@ -129,5 +141,6 @@
         private System.Windows.Forms.Button btnNewWindow;
         private System.Windows.Forms.Label label1;
         public System.Windows.Forms.Label lblChange;
+        private System.Windows.Forms.Button btnShowImages;
     }
 }

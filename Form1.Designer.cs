@@ -114,6 +114,7 @@
             // picPhoto
             // 
             this.picPhoto.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.picPhoto.Cursor = System.Windows.Forms.Cursors.Default;
             this.picPhoto.Location = new System.Drawing.Point(257, 12);
             this.picPhoto.Name = "picPhoto";
             this.picPhoto.Size = new System.Drawing.Size(100, 100);
