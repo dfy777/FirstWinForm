@@ -48,11 +48,5 @@ namespace FirstWinForm
             var frm_images = new ImgForm();
             frm_images.Show();
         }
-
-        private void btnMdi_Click(object sender, EventArgs e)
-        {
-            var frm = new MdiForm();
-            frm.Show();
-        }
     }
 }

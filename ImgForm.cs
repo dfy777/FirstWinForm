@@ -20,8 +20,8 @@ namespace FirstWinForm
 
         private void ImgForm_Load(object sender, EventArgs e)
         {
-            //var images = GetImageFileNameList();
-            //ShowImages(images);
+            var images = GetImageFileNameList();
+            ShowImages(images);
         }
 
 
